@@ -1,5 +1,5 @@
 # svyIdle
-Simple web service to check if a user is idle or if browser window no longer active - Built for NGclient.
+Simple web service to check if a user is idle or if browser window no longer active (NGclient)
 
 Getting started
 -------------
