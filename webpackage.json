@@ -1,5 +1,5 @@
 {
-    "name": "svyIdle",
+    "name": "svy",
     "displayName": "Idle Web Service",
     "packageType": "Web-Service",
     "icon": "https://raw.githubusercontent.com/Servoy/svyIdle/master/icon.png",
