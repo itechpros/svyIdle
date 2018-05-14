@@ -1,5 +1,5 @@
 # svyIdle
-Simple service to check if a user is idle and/or if the browser tab is hidden.
+Simple service to check if a user is idle and/or if the browser tab is hidden. Built for NGclient.
 
 Getting started
 -------------
