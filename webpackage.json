@@ -1,0 +1,13 @@
+{
+    "name": "svyIdle",
+    "displayName": "Idle Web Service",
+    "packageType": "Web-Service",
+    "icon": "https://raw.githubusercontent.com/Servoy/svyFingerprint/master/icon.png",
+    "description": "Simple service to check if a user is idle",
+    "wikiUrl": "https://github.com/Servoy/svyIdle/wiki",
+    "sourceUrl": "https://github.com/Servoy/svyIdle",
+    "releases": [{
+        "version": "1.0.0",
+        "url": "https://github.com/Servoy/svyIdle/releases/download/1.0.0/svyIdle.zip"
+    }]
+}
