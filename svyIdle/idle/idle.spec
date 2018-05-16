@@ -2,11 +2,11 @@
 	"name": "svy-idle",
 	"displayName": "idle",
 	"version": 1,
- 	"definition": "svy/idle/idle.js",
+ 	"definition": "svyIdle/idle/idle.js",
 	"libraries": [{
 			"name": "idle.js",
 			"version": "1.2.6",
-			"url": "svy/idle/jquery.idle.js",
+			"url": "svyIdle/idle/jquery.idle.js",
 			"mimetype": "text/javascript"
 		}],
 	"model":

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: svy
+Bundle-SymbolicName: svyIdle
 Bundle-Name: Idle Service
 Bundle-Version: 1.0.0
 Package-Type: Web-Service
