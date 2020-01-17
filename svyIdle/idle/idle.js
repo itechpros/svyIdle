@@ -18,16 +18,24 @@ angular.module('svyIdle',['servoy'])
 		onIdle: function(onIdle, onActive, onHide, onShow, events, idle, keepTracking, startAtIdle, recurIdleCall) {
 			$(document).idle({
 				onIdle: function() {
-					$window.executeInlineScript(onIdle.formname, onIdle.script, []);
+					if (onIdle) {
+						$window.executeInlineScript(onIdle.formname, onIdle.script, []);
+					}
 				},
 				onActive: function(cb) {
-					$window.executeInlineScript(onActive.formname, onActive.script, []);
+					if (onActive) {
+						$window.executeInlineScript(onActive.formname, onActive.script, []);
+					}
 				},
 				onHide: function() {
-					$window.executeInlineScript(onHide.formname, onHide.script, []);
+					if (onHide) {
+						$window.executeInlineScript(onHide.formname, onHide.script, []);
+					}
 				},
 				onShow: function(cb) {
-					$window.executeInlineScript(onShow.formname, onShow.script, []);
+					if (onShow) {
+						$window.executeInlineScript(onShow.formname, onShow.script, []);
+					}
 				},
 				events: (events == null) || (events.length == 0) || (events == ' ') ? 'mousemove keydown mousedown touchstart' : events,
 				keepTracking: keepTracking,
