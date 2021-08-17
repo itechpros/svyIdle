@@ -11,6 +11,15 @@
 		}],
 	"model":
 	{
+	    "internalOnIdle" : {"type":"function", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	   	"internalOnActive" : {"type":"function", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalOnHide" : {"type":"function", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalOnShow" : {"type":"function", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalEvents" : {"type":"string", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalIdle" : {"type":"int", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalKeepTracking" : {"type":"boolean", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	   	"internalStartAtIdle" : {"type":"boolean", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }},
+	    "internalRecurIdleCall" : {"type":"boolean", "pushToServer": "shallow", "elementConfig": {"pushToServer": "shallow"} , "tags": { "scope" :"private" }}
  	},
  	"api":
  	{
